@@ -1,0 +1,278 @@
+body {
+background: #F5F5F5;
+}
+.home
+{
+padding: 5px;
+}
+.header {
+background: #DBDBDB;
+width:100%;
+}
+.header table
+{
+width: 100%;
+}
+.footer {
+background: #DBDBDB;
+width:100%;
+padding:10px;
+text-align: center;
+}
+.error {
+color: red;
+}
+.selectedRow
+{
+background-color: #3B3B3B;
+color: white;
+}
+.actionIcon
+{ cursor:pointer;
+}
+.listContainer
+{
+padding:1px;
+}
+.authorsListToolBar
+{
+width:600px;
+border: 2px solid black;
+background-color: #C1C1C1;
+height: 28px;
+padding-top:5px;
+}
+.authorSearchComponent
+{
+float: left;
+padding-left:5px;
+}
+.authorSearchComponentInput
+{
+border: 2px solid black;
+}
+.authorSearchComponentInputError
+{
+border: 2px solid red;
+}
+.authorsListToolBarButtons
+{
+float: right;
+cursor: pointer;
+padding-right:5px;
+}
+.authorsListView
+{
+width: 600px;
+border-collapse: collapse;
+border-spacing: 0;
+border: 2px solid black;
+}
+.authorsListView thead
+{
+display: block;
+}
+.authorsListView thead tr th
+{
+height: 30px;
+width: 50px;
+line-height: 30px;
+text-align: right;
+border-right: 1px solid black;
+}
+.authorsListView thead tr th+th
+{
+width: 410px;
+text-align: left;
+}
+.authorsListView thead tr th+th+th
+{
+width: 50px;
+text-align: center;
+}
+.authorsListView thead tr th+th+th+th
+{
+width: 50px;
+text-align: center;
+border-right: none;
+}
+.authorsListView tbody
+{
+display: block;
+width: 600px;
+height: 300px;
+overflow-y: auto;
+overflow-x: hidden;
+border-top: 2px solid black;
+cursor: pointer;
+}
+.authorsListView tbody tr
+{
+height: 40px;
+border-bottom: 1px solid black;
+}
+.authorsListView tbody tr td
+{
+width: 50px;
+text-align: right;
+border-right: 1px solid black;
+}
+.authorsListView tbody tr td+td
+{
+width: 410px;
+text-align: left;
+}
+.authorsListView tbody tr td+td+td
+{
+width: 50px;
+text-align: center;
+}
+.authorsListView tbody tr td+td+td+td
+{
+width: 50px;
+text-align: center;
+}
+input[type=number]
+{ text-align: right;
+}
+.clearFilter
+{
+visibility: hidden;
+}
+.booksListView
+{
+width: 850px;
+border-collapse: collapse;
+border-spacing: 0;
+border: 2px solid black;
+}
+.booksListView thead
+{
+display: block;
+}
+.booksListView thead tr th
+{
+height: 30px;
+width: 50px;
+line-height: 30px;
+text-align: right;
+border-right: 1px solid black;
+}
+.booksListView thead tr th+th
+{
+width: 250px;
+text-align: left;
+}
+.booksListView thead tr th+th+th
+{
+width: 150px;
+text-align: center;
+}
+.booksListView thead tr th+th+th+th
+{
+width: 200px;
+text-align: center;
+}
+.booksListView thead tr th+th+th+th+th
+{
+width: 50px;
+text-align: center;
+}
+.booksListView thead tr th+th+th+th+th+th
+{
+width: 50px;
+text-align: center;
+}
+.booksListView thead tr th+th+th+th+th+th+th
+{
+width: 50px;
+text-align: center;
+border-right:none;
+}
+.booksListView tbody
+{
+display: block;
+width: 850px;
+height: 300px;
+overflow-y: auto;
+overflow-x: hidden;
+border-top: 2px solid black;
+cursor: pointer;
+}
+.booksListView tbody tr
+{
+height: 40px;
+border-bottom: 1px solid black;
+}
+.booksListView tbody tr td
+{
+width: 50px;
+text-align: right;
+border-right: 1px solid black;
+}
+.booksListView tbody tr td+td
+{
+width: 250px;
+text-align: left;
+}
+.booksListView tbody tr td+td+td
+{
+width: 150px;
+text-align: center;
+}
+.booksListView tbody tr td+td+td+td
+{
+width: 200px;
+text-align: center;
+}
+.booksListView tbody tr td+td+td+td+td
+{
+width: 50px;
+text-align: center;
+}
+.booksListView tbody tr td+td+td+td+td+td
+{
+width: 50px;
+text-align: center;
+}
+.booksListView tbody tr td+td+td+td+td+td+td
+{
+width: 50px;
+text-align: center;
+}
+.booksListToolBar
+{
+width:850px;
+border: 2px solid black;
+background-color: #C1C1C1;
+height: 28px;
+padding-top:5px;
+}
+.bookSearchComponent
+{
+float: left;
+padding-left:5px;
+}
+.bookSearchComponentInput
+{
+border: 2px solid black;
+}
+.bookSearchComponentInputError
+{
+border: 2px solid red;
+}
+.booksListToolBarButtons
+{
+float: right;
+cursor: pointer;
+padding-right:5px;
+}
+.bookFilterComponent
+{
+float:right;
+padding-right:30px;
+}
+.bookFilterComponent select
+{
+border: 1px solid black;
+}
